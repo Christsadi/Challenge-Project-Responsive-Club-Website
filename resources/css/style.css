@@ -21,5 +21,21 @@ html {
 }
 
 h2 {
-  font-size: ;
+}
+
+p {
+}
+
+/* Header section */
+.header {
+  height: 30rem;
+  background-image: url("/resources/images/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.nav {
+  max-width: 57.5rem;
+  background-color: grey;
 }
