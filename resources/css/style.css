@@ -15,10 +15,10 @@ html {
 }
 
 .container img {
-  width: 16rem;
+  width: 30%;
   display: block;
-  margin: auto;
-  margin-top: 3rem;
+  margin: 3% 3% 3% 0;
+  float: left;
 }
 
 /* Header section */
