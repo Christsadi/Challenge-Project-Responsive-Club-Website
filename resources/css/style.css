@@ -9,9 +9,25 @@ html {
 }
 
 .container {
-  max-width: 60rem;
+  max-width: 90%;
   margin: 0 auto;
   padding: 0 1rem;
+}
+
+.container h2 {
+  font-size: 2rem;
+  margin: 1rem 0 1rem;
+}
+
+.container p {
+  line-height: 2em;
+}
+
+.support {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
 }
 
 /* Header section */
@@ -51,22 +67,17 @@ nav a {
 }
 
 /* About-us section */
-.container h2 {
-  font-size: 2rem;
-  margin: 1rem 0 1rem;
-}
 
-.container p {
-  line-height: 2em;
-}
-
-.images {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  margin-top: 2rem;
-}
-
-.container img {
+.support img {
   width: 30%;
+}
+
+/* program section */
+
+.program {
+  background-color: rgb(180, 6, 93);
+  text-align: center;
+  margin: 2rem auto;
+  padding: 1rem;
+  opacity: 0.8;
 }
