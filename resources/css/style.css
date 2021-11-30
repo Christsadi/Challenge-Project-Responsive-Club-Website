@@ -24,6 +24,10 @@ html {
   margin: 1rem 0 1rem;
 }
 
+.container h4 {
+  line-height: 2em;
+}
+
 .container p {
   line-height: 2em;
 }
@@ -116,4 +120,17 @@ nav a {
 
 .location-image img {
   width: 40%;
+}
+
+/* footer section */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: grey;
+  text-align: center;
+  margin: 1rem auto 0;
+  padding: 1rem;
+  opacity: 0.8;
+  border-top: 1px white solid;
 }
