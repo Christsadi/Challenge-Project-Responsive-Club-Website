@@ -19,15 +19,13 @@ html {
   margin: 1rem 0 1rem;
 }
 
-.container p {
-  line-height: 2em;
+.container h3 {
+  font-size: 2rem;
+  margin: 1rem 0 1rem;
 }
 
-.support {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  margin-top: 2rem;
+.container p {
+  line-height: 2em;
 }
 
 /* Header section */
@@ -40,6 +38,7 @@ html {
   background-size: cover;
   padding-top: 1rem;
   text-align: center;
+  margin-bottom: 2rem;
 }
 
 .header nav {
@@ -68,7 +67,14 @@ nav a {
 
 /* About-us section */
 
-.support img {
+.about-us {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.about-us img {
   width: 30%;
 }
 
@@ -77,7 +83,22 @@ nav a {
 .program {
   background-color: rgb(180, 6, 93);
   text-align: center;
-  margin: 2rem auto;
+  margin: 6rem auto 0;
   padding: 1rem;
   opacity: 0.8;
+}
+
+.progam-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.progam-image {
+  width: 30%;
+  text-align: center;
+}
+.progam-image img {
+  width: 100%;
 }
