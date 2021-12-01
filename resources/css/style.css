@@ -26,11 +26,11 @@ body {
 }
 
 .container h4 {
-  line-height: 2em;
+  line-height: 2rem;
 }
 
 .container p {
-  line-height: 2em;
+  line-height: 2rem;
 }
 
 /* Header section */
@@ -47,7 +47,7 @@ body {
 }
 
 .header nav {
-  padding: 1rem 2rem;
+  padding: 1em 2em;
   background-color: grey;
   text-align: left;
   opacity: 0.8;
@@ -59,14 +59,14 @@ li {
 
 nav a {
   color: rgb(218, 218, 218);
-  padding-right: 1.5rem;
+  padding-right: 1.5em;
   font-size: 1em;
   line-height: 1.5em;
 }
 
 .header h1 {
-  font-size: 5rem;
-  margin: 16rem auto;
+  font-size: 5em;
+  margin: 16em auto;
   opacity: 0.8;
   color: rgb(151, 150, 150);
 }
@@ -98,7 +98,7 @@ nav a {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin-top: 2rem;
+  margin-top: 2em;
 }
 
 .progam-image {
@@ -120,8 +120,8 @@ nav a {
 
 .container .location-image {
   text-align: center;
-  margin-top: 4rem;
-  padding-top: 2rem;
+  margin-top: 4em;
+  padding-top: 2em;
 }
 
 .location-image img {
@@ -155,8 +155,8 @@ nav a {
   }
 
   .header h1 {
-    font-size: 5rem;
-    margin: 2rem auto;
+    font-size: 5em;
+    margin: 2em auto;
     opacity: 0.8;
     color: rgb(151, 150, 150);
   }
