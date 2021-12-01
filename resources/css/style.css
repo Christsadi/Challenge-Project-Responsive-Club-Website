@@ -111,11 +111,15 @@ nav a {
 
 .location {
   text-align: center;
+  background-color: rgb(8, 8, 111);
+  padding-bottom: 2rem;
+  opacity: 0.7;
 }
 
-.location-image {
+.container .location-image {
   text-align: center;
   margin-top: 4rem;
+  padding-top: 2rem;
 }
 
 .location-image img {
@@ -129,8 +133,15 @@ nav a {
   justify-content: space-between;
   background-color: grey;
   text-align: center;
-  margin: 1rem auto 0;
-  padding: 1rem;
+  padding: 2rem;
   opacity: 0.8;
   border-top: 1px white solid;
+}
+
+.footer h4 {
+  line-height: 2em;
+}
+
+.footer p {
+  line-height: 2em;
 }
