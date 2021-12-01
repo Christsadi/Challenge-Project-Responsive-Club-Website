@@ -177,3 +177,10 @@ nav a {
     text-align: center;
   }
 }
+
+@media only screen and (max-width: 320px) {
+  .footer {
+    display: block;
+    justify-content: center;
+  }
+}
